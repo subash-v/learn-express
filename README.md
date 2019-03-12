@@ -1,4 +1,23 @@
 # learn-express
+####Installing
+Assuming you’ve already installed Node.js, create a directory to hold your application, and make that your working directory.
+
+$ mkdir myapp
+$ cd myapp
+Use the npm init command to create a package.json file for your application. For more information on how package.json works, see Specifics of npm’s package.json handling.
+
+$ npm init
+This command prompts you for a number of things, such as the name and version of your application. For now, you can simply hit RETURN to accept the defaults for most of them, with the following exception:
+
+entry point: (index.js)
+Enter app.js, or whatever you want the name of the main file to be. If you want it to be index.js, hit RETURN to accept the suggested default file name.
+
+Now install Express in the myapp directory and save it in the dependencies list. For example:
+
+$ npm install express --save
+To install Express temporarily and not add it to the dependencies list:
+
+$ npm install express --no-save
 
 website:expressjs.com
 
@@ -42,7 +61,7 @@ in sequelizer.js
 it will install the express and sequelize
 #2.node server.js ->
 server running once server start running
-#3.in chrome http://localhost:7000/
+#3.in chrome http://localhost:8000/
 
 -----------------------------------------------------
 
@@ -50,8 +69,8 @@ server running once server start running
 get:-
 Request Type:- Get
 
-Request url:- http://localhost:7000/customers/3
-http://localhost:7000/
+Request url:- http://localhost:8000/customers/3
+http://localhost:8000/
 
 //using post man
 ----------------------------------------------------
@@ -59,7 +78,7 @@ http://localhost:7000/
 post:-
 Request Type:- Post
 
-Request url:- http://localhost:7000/customers
+Request url:- http://localhost8000/customers
 
 Request body param:-
 {
@@ -72,7 +91,7 @@ Request body param:-
 put:-
 Request Type:- Put
 
-Request url:- http://localhost:7000/customers/1
+Request url:- http://localhost:8000/customers/1
 
 change the name to priya whose id is 1
 
@@ -86,7 +105,7 @@ Request body param:-
 delete:-
 Request Type:- Delete
 
-Request url:- http://localhost:7000/customers/1
+Request url:- http://localhost:8000/customers/1
 
 delte the filed whose id is 1
 
