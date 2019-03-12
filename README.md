@@ -44,7 +44,9 @@ it will install the express and sequelize
 server running once server start running
 #3.in chrome http://localhost:7000/
 
-##-----------------------------------------------------
+-----------------------------------------------------
+
+
 get:-
 Request Type:- Get
 
@@ -52,7 +54,8 @@ Request url:- http://localhost:7000/customers/3
 http://localhost:7000/
 
 //using post man
-##----------------------------------------------------
+----------------------------------------------------
+
 post:-
 Request Type:- Post
 
@@ -63,7 +66,8 @@ Request body param:-
 "name":"banu",
 "address":"mysur"
 }
-##-----------------------------------------------------------
+
+-----------------------------------------------------------
 
 put:-
 Request Type:- Put
@@ -76,7 +80,8 @@ Request body param:-
 {
 "name":"priya",
 }
-##------------------------------------------------------------
+
+------------------------------------------------------------
 
 delete:-
 Request Type:- Delete
