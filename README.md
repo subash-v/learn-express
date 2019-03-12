@@ -9,7 +9,7 @@ Use the npm init command to create a package.json file for your application. For
 $ npm init
 This command prompts you for a number of things, such as the name and version of your application. For now, you can simply hit RETURN to accept the defaults for most of them, with the following exception:
 
-entry point: (index.js)
+# entry point: (index.js)
 Enter app.js, or whatever you want the name of the main file to be. If you want it to be index.js, hit RETURN to accept the suggested default file name.
 
 Now install Express in the myapp directory and save it in the dependencies list. For example:
@@ -28,7 +28,7 @@ npm install nodemon
 var express = require('express');
 var app = express();
 
-#METHODS
+# METHODS
 
 express.json([options])
 
@@ -56,12 +56,12 @@ create a database manully as "mydb" before u run the code
 change the hostname,password according to ur mysql configuration
 in sequelizer.js
 
-#steps to run
-#1.npm install / yarn install
+# steps to run
+# 1.npm install / yarn install
 it will install the express and sequelize
-#2.node server.js ->
+# 2.node server.js ->
 server running once server start running
-#3.in chrome http://localhost:8000/
+# 3.in chrome http://localhost:8000/
 
 -----------------------------------------------------
 
